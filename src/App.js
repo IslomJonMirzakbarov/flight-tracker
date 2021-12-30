@@ -78,7 +78,7 @@ function App() {
     }
   }, []);
 
-  return <Viewer full ref={ref} terrainProvider={terrainProvider} />;
+  return <Viewer full ref={ref} terrainProvider={terrainProvider} navigationInstructionsInitiallyVisible={false}/>;
 }
 
 export default App;
